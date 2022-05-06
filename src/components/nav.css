@@ -1,0 +1,30 @@
+.box{
+    display: inline-block;
+    text-decoration: none;
+    background-color: aliceblue;
+    margin:13px 20px ;
+    padding:10px 10px;
+    border-radius: 30px;
+    background-color: yellowgreen;
+    
+}
+.profile{
+
+    background-color:yellow;
+    text-align: center;
+    margin:10%
+    
+}
+.Customer{
+    text-align: center;
+    background-color: lightgray;
+    text-decoration: aliceblue;
+    text-shadow: 9ch;
+    text-decoration-color: blue;
+    font-weight: 200;
+}
+.product{
+    text-align: center;
+    background-color: lightblue;
+    
+}
