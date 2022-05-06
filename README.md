@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Billing-App
+In this App I create an App which maintains a bill of daily transactions in a shop.
+The Shop Owner can maintain their customer details and product details
+He/She can also generate bills and can observe bill by graph that how much his/her income at particular date.
+It is created using React and Redux. It has five modules: dashboard, user, customer, product and bills.
+## Packages Used
+- Formic
+- Yup
+- recharts
+- axios
+- material-ui
+## you can visit my app  please click here [Demo](https://pos-bill.netlify.app/)
+## Feature
+- User Module
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ In this App User/BusinessOwner can registered by their appropriate credentials 
+ once user successfully registered then he has to login by same email and password , if he logged in to the system successfully then a token will generate and send to the front end .After that User can add customers,product,bills and also he can see his profile.
+ - Customer Module
+ 
+ In Customer Module User can add customer by  their name,mobile number,email id and  create  customer list with name ,emailid and mobile number as well as  user can search customer by their name and his mobile number and edit,delete the customer details.
+ User can also sort the customer list according to name in ascending or descending order.
+ i have also done client side validation if user can submit button without filling the customer details
+ - Product Module
+ 
+  In product User can add product name(Soap,Toothpaste,etc) and price 
+  done Search Functionality ,Sorting Functionality according to both(product name & price)
+  Listing functionality and also user can delete and update the product list
+  - Bills
+  
+   After adding and creating Customer list and Product list 
+   User can make a bill for customer what are the things Customer purchased and also what is the total bills
+   
+   - Dashboard
+   
+   In the Dashboard User can see their toal income on particular date 
+   i generate a line chart which shows what is the income at particular date
+   User can see how many customer he has how many products he has ,no.of total bills 
+   last 5 transactions last 5 Customer and last 5 Products
+   
+   ## Contributor
+   [Nitish Kumar](https://github.com/neemnit)
